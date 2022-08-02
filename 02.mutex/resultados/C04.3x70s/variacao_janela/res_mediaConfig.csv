@@ -1,0 +1,40 @@
+## fixo resultado de 10 execuções
+
+latencia, 320, 329, 322 
+mh, 0, 0, 0 
+clonados, 13955386, 9587857, 14271515 
+pkts, 64491254, 68899216, 65963583 
+TX, 199354054, RX, 199354054,CLONE_E2I, 37814759, DROP, 94
+
+## janela_20 resultado de 10 execuções
+
+latencia, 234, 311, 315 
+mh, 88, 114, 142 
+clonados, 9016073, 8714079, 13650073 
+pkts, 64731291, 68864470, 65820112 
+TX, 199415874, RX, 199415874,CLONE_E2I, 31380225, DROP, 93
+
+## janela_21 resultado de 10 execuções
+
+latencia, 189, 318, 312 
+mh, 85, 93, 127 
+clonados, 6705325, 9031442, 13643072 
+pkts, 64970403, 68861570, 65783687 
+TX, 199615661, RX, 199615661,CLONE_E2I, 29379840, DROP, 95
+
+## janela_22 resultado de 10 execuções
+
+latencia, 165, 300, 322 
+mh, 84, 91, 110 
+clonados, 5555152, 8645643, 12295672 
+pkts, 58638316, 68559506, 59290222 
+TX, 186488045, RX, 186488045,CLONE_E2I, 26496469, DROP, 93
+
+## janela_23 resultado de 10 execuções
+
+latencia, 181, 254, 269 
+mh, 97, 95, 96 
+clonados, 5801255, 6656145, 11216292 
+pkts, 65678166, 68925424, 65895146 
+TX, 200498737, RX, 200498737,CLONE_E2I, 23673694, DROP, 93
+

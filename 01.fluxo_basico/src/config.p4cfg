@@ -1,0 +1,56 @@
+{
+    "tables": {
+        "ingress::tb_ipv4": {
+            "rules": [
+                {
+                    "name": "regra_1", 
+                    "match": {"ipv4.dstAddr": {"value": "10.0.1.0/24"}},
+                    "action": {
+                        "type": "ingress::ipv4_forward",
+                        "data": {
+                            "macDst": {"value": "00:00:00:00:00:00"},
+                            "port": {"value": "p0"}
+                        }
+                    }
+                }, 
+                {
+                    "name": "regra_2", 
+                    "match": {"ipv4.dstAddr": {"value": "10.0.2.0/24"}},
+                    "action": {
+                        "type": "ingress::ipv4_forward",
+                        "data": {
+                            "macDst": {"value": "00:00:00:00:00:00"},
+                            "port": {"value": "p1"}
+                        }
+                    }
+                }, 
+                {
+                    "name": "regra_3", 
+                    "match": {"ipv4.dstAddr": {"value": "10.0.3.0/24"}},
+                    "action": {
+                        "type": "ingress::ipv4_forward",
+                        "data": {
+                            "macDst": {"value": "00:00:00:00:00:00"},
+                            "port": {"value": "p2"}
+                        }
+                    }
+                }, 
+                {
+                    "name": "regra_4", 
+                    "match": {"ipv4.dstAddr": {"value": "10.0.4.0/24"}},
+                    "action": {
+                        "type": "ingress::ipv4_forward",
+                        "data": {
+                            "macDst": {"value": "00:00:00:00:00:00"},
+                            "port": {"value": "p3"}
+                        }
+                    }
+                }
+            ], 
+            "default_rule": {
+                "name": "drop",
+                "action": {"type": "ingress::drop"}
+            }
+        }
+    }
+}

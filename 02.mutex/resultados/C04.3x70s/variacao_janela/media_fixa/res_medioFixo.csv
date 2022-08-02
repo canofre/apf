@@ -1,0 +1,8 @@
+## fixo resultado de 10 execuções
+
+latencia, 320, 329, 322 
+mh, 0, 0, 0 
+clonados, 13955386, 9587857, 14271515 
+pkts, 64491254, 68899216, 65963583 
+TX, 199354054, RX, 199354054,CLONE_E2I, 37814759, DROP, 94
+

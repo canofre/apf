@@ -1,0 +1,49 @@
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+EAL: Detected 16 lcore(s)
+EAL: Detected 1 NUMA nodes
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+[1;37m[INFO]  Initializing DPDK. This will take a few seconds...[0m
+EAL: Probing VFIO support...
+EAL: PCI device 0000:07:00.0 on NUMA socket -1
+EAL:   Invalid NUMA socket, default to 0
+EAL:   probe driver: 19ee:4000 net_nfp_pf
+NFP HWINFO header: 48490200
+nfp_pf_pci_probe(): Something is wrong with the firmware symbol table
+EAL: Requested device 0000:07:00.0 cannot be used
+[1;37m[INFO]  Found 0 usable devices:[0m
+[0;31m[FATAL] Lua error in task master[0m
+/opt/MoonGen/build/../libmoon/lua/device.lua:100: [0;31mthere are only 0 ports, tried to configure port id 0[0m
+Stack Traceback
+===============
+(2) Lua method 'fatal' at file '/opt/MoonGen/build/../libmoon/lua/log.lua:129'
+	Local variables:
+	 self = table: 0x404bdf98  {DEBUG:0, fatal:function: 0x402b46d8, writeToLog:function: 0x402b46b8, INFO:1 (more...)}
+	 str = string: "there are only 0 ports, tried to configure port id 0"
+(3) Lua field 'config' at file '/opt/MoonGen/build/../libmoon/lua/device.lua:100'
+	Local variables:
+	 args = table: 0x409e13e8  {rxQueues:1, txDescs:1024, txQueues:1, rxDescs:1024, port:0}
+(4) Lua function 'master' at file '/opt/MoonGen/examples/netronome-packetgen/packetgen.lua:250' (best guess)
+	Local variables:
+	 continue = boolean: true
+	 totalSlaves = number: 2
+	 portList = table: 0x409e1378  {1:0, 2:1}
+	 devices = table: 0x409e13c0  {}
+	 (for generator) = C function: builtin#6
+	 (for state) = table: 0x409e1378  {1:0, 2:1}
+	 (for control) = number: 1
+	 _ = number: 1
+	 port = number: 0
+	 deviceIdx = number: 1
+(5) global C function 'xpcall'
+(6) Lua upvalue 'master' at file '/opt/MoonGen/build/../libmoon/lua/main.lua:96'
+	Local variables:
+	 _ = string: "/opt/MoonGen/build/MoonGen"
+	 file = string: "/opt/MoonGen/examples/netronome-packetgen/packetgen.lua"
+	 args = table: 0x40e0c548  {1:-tx, 2:0, 3:-rx, 4:1, 5:--dst-ip, 6:10.0.3.10, 7:--dst-ip-vary, 8:0.0.0.0 (more...)}
+	 cfgFile = nil
+	 ok = boolean: true
+	 parsedArgs = table: 0x409db490  {}
+(7) Lua function 'main' at file '/opt/MoonGen/build/../libmoon/lua/main.lua:146' (best guess)
+	Local variables:
+	 task = string: "master"
+	/opt/MoonGen/build/../libmoon/lua/device.lua:100: [0;31mthere are only 0 ports, tried to configure port id 0[0m

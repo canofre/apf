@@ -1,0 +1,8 @@
+## int_classico resultado de 10 execuções
+
+latencia, 279, 342, 283 
+mh, 0, 0, 0 
+clonados, 45903354, 46426514, 46879019 
+pkts, 45903353, 46426514, 46879019 
+TX, 139208887, RX, 139208887,CLONE_E2I, 139208887, DROP, 95
+

@@ -1,0 +1,80 @@
+{
+  "tables": {
+    "ingress::tb_ipv4": {
+      "rules": [
+        {
+          "name": "regra_1", 
+          "match": {"ipv4.dstAddr": {"value": "10.0.1.10"}},
+          "action": {
+            "type": "ingress::ipv4_forward",
+            "data": {
+              "macDst": {"value": "00:00:00:00:00:00"},
+              "port": {"value": "p0"}
+            }
+          }
+        }, 
+        {
+          "name": "regra_2", 
+          "match": {"ipv4.dstAddr": {"value": "10.0.2.10"}},
+          "action": {
+            "type": "ingress::ipv4_forward",
+            "data": {
+              "macDst": {"value": "00:00:00:00:00:00"},
+              "port": {"value": "p1"}
+            }
+          }
+        }, 
+        {
+          "name": "regra_3", 
+          "match": {"ipv4.dstAddr": {"value": "10.0.3.10"}},
+          "action": {
+            "type": "ingress::ipv4_forward",
+            "data": {
+              "macDst": {"value": "00:00:00:00:00:00"},
+              "port": {"value": "p2"}
+            }
+          }
+        }, 
+        {
+          "name": "regra_4", 
+          "match": {"ipv4.dstAddr": {"value": "10.0.4.10"}},
+          "action": {
+            "type": "ingress::ipv4_forward",
+            "data": {
+              "macDst": {"value": "00:00:00:00:00:00"},
+              "port": {"value": "p3"}
+            }
+          }
+        }
+      ], 
+      "default_rule": {
+        "name": "drop",
+        "action": {"type": "ingress::drop"}
+      }
+    },
+    "ingress::tb_metricas": {
+      "default_rule": {
+        "name": "get_metricas",
+        "action" : {
+          "type": "ingress::metricas_get",
+          "data": { 
+            "janela": {"value": "20"},
+            "peso_mh": {"value": "58982"},
+            "peso_mj": {"value": "6554"}
+          }
+        }
+      }
+    },
+    "ingress::tb_monitor": {
+      "default_rule": {
+        "name": "port_monitor",
+        "action" : {
+          "type": "ingress::monitor_send",
+          "data": { 
+            "porta": {"value": "v0.2"}
+          }
+        }
+      }
+    }
+  }
+}

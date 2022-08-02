@@ -1,0 +1,74 @@
+Pseudo-terminal will not be allocated because stdin is not a terminal.
+EAL: Detected 24 lcore(s)
+EAL: Detected 1 NUMA nodes
+EAL: Multi-process socket /var/run/dpdk/rte/mp_socket
+[1;37m[INFO]  Initializing DPDK. This will take a few seconds...[0m
+EAL: Probing VFIO support...
+EAL: PCI device 0000:b3:00.0 on NUMA socket 0
+EAL:   probe driver: 19ee:4000 net_nfp_pf
+NFP HWINFO header: 48490200
+[1;37m[INFO]  Found 2 usable devices:[0m
+   Device 0: 00:15:4D:13:5B:D3 ([0;32munknown NIC (PCI ID 19ee:4000)[0m)
+   Device 1: 00:15:4D:13:5B:D4 ([0;32munknown NIC (PCI ID 19ee:4000)[0m)
+
++-------- Parameters ---------------------------------+
+| RX Slaves          :                              1 |
+| TX Slaves          :                              1 |
+| RX Descs           :                           1024 |
+| TX Descs           :                           1024 |
+| Param display (s)  :                          3.000 |
+| Stat display (s)   :                          1.000 |
+| Number of streams  :                              1 |
+| Bursts per stream  :                              1 |
+| Flows per stream   :                           2047 |
+| Total flows        :                           2047 |
+| Iterations         :                              0 |
+| Timeout            :                             16 |
+| Packet size        :                             64 |
+| Using Imix size    :                          false |
+| File prefix        :                                |
+| Write mode         :                              0 |
+| ETH src base       :                   021100000000 |
+| ETH dst base       :                   022200000000 |
+| ETH src vary       :                   000000000000 |
+| ETH dst vary       :                   000000000001 |
+| ETH src stride     :                   000000000000 |
+| ETH dst stride     :                   0000000007ff |
+| IP src base        :                      10.0.2.10 |
+| IP dst base        :                      10.0.1.10 |
+| IP src vary        :                        0.0.0.1 |
+| IP dst vary        :                        0.0.0.0 |
+| IP src stride      :                      0.0.7.255 |
+| IP dst stride      :                      0.0.7.255 |
+| PORT src base      :                          50110 |
+| PORT dst base      :                          50220 |
+| PORT src vary      :                              1 |
+| PORT dst vary      :                              0 |
+| PORT src stride    :                           2047 |
+| PORT dst stride    :                           2047 |
++-----------------------------------------------------+
+
+Launching TX slave: 0, Core: 1, Port: 0
+Launching RX slave: 1, Core: 2, Port: 1
+
++------ RX Statistics for core   2, port   1 -------------------+
+| Packets received           :                         53113476 |
+| Packet receive rate        :                             0.00 |
+| Avg packet receive rate    :                       3319592.14 |
+| Bytes received             :                       3186808560 |
+| Byte receive rate          :                             0.00 |
+| Avg byte receive rate      :                     199175528.15 |
+| Packets dropped on receive :                         53113476 |
+| RX mean latency            :            -607799754.0789130926 |
++---------------------------------------------------------------+
+
++------ TX Statistics for core   1, port   0 -------------------+
+| Packets sent               :                         53123744 |
+| Packet send rate           :                             0.00 |
+| Avg packet send rate       :                       3320101.53 |
+| Bytes sent                 :                       3399919616 |
+| Byte send rate             :                             0.00 |
+| Avg byte send rate         :                     212486497.67 |
+| Packets short              :                                0 |
+| Bursts                     :                            25952 |
++---------------------------------------------------------------+

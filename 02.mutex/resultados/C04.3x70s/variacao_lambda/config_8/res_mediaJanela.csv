@@ -1,0 +1,8 @@
+## config_8 resultado de 10 execuções
+
+latencia, 225, 271, 268 
+mh, 82, 97, 108 
+clonados, 8192769, 6791162, 10540780 
+pkts, 65614958, 69515731, 66850280 
+TX, 201980969, RX, 201980969,CLONE_E2I, 25524712, DROP, 94
+

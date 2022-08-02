@@ -1,0 +1,72 @@
+## config_9 resultado de 10 execuções
+
+latencia, 218, 296, 306 
+mh, 85, 106, 136 
+clonados, 8571082, 8347018, 13301285 
+pkts, 64749519, 68863221, 65833018 
+TX, 199445760, RX, 199445760,CLONE_E2I, 30219386, DROP, 95
+
+## config_8 resultado de 10 execuções
+
+latencia, 225, 271, 268 
+mh, 82, 97, 108 
+clonados, 8192769, 6791162, 10540780 
+pkts, 65614958, 69515731, 66850280 
+TX, 201980969, RX, 201980969,CLONE_E2I, 25524712, DROP, 94
+
+## config_7 resultado de 10 execuções
+
+latencia, 233, 275, 284 
+mh, 93, 103, 119 
+clonados, 8949863, 7568529, 11908245 
+pkts, 64675305, 68919150, 65853556 
+TX, 199448012, RX, 199448012,CLONE_E2I, 28426638, DROP, 94
+
+## config_6 resultado de 10 execuções
+
+latencia, 232, 259, 264 
+mh, 93, 99, 110 
+clonados, 9202396, 6982416, 10862639 
+pkts, 64702651, 68868896, 65892021 
+TX, 199463569, RX, 199463569,CLONE_E2I, 27047452, DROP, 94
+
+## config_5 resultado de 10 execuções
+
+latencia, 224, 283, 275 
+mh, 91, 112, 125 
+clonados, 8798034, 7820243, 11902216 
+pkts, 64774983, 68897674, 65886711 
+TX, 199559368, RX, 199559368,CLONE_E2I, 28520493, DROP, 94
+
+## config_4 resultado de 10 execuções
+
+latencia, 236, 270, 260 
+mh, 97, 103, 112 
+clonados, 9365461, 7134933, 10856470 
+pkts, 64688455, 68916096, 65875188 
+TX, 199479740, RX, 199479740,CLONE_E2I, 27356865, DROP, 93
+
+## config_3 resultado de 10 execuções
+
+latencia, 249, 271, 266 
+mh, 104, 106, 112 
+clonados, 9893044, 7223143, 10884929 
+pkts, 64671060, 68919054, 65878980 
+TX, 199469096, RX, 199469096,CLONE_E2I, 28001116, DROP, 95
+
+## config_2 resultado de 10 execuções
+
+latencia, 234, 273, 267 
+mh, 101, 109, 119 
+clonados, 9617238, 7373110, 11209887 
+pkts, 64662942, 68900317, 65891916 
+TX, 199455176, RX, 199455176,CLONE_E2I, 28200235, DROP, 94
+
+## config_1 resultado de 10 execuções
+
+latencia, 240, 271, 269 
+mh, 101, 105, 119 
+clonados, 9705750, 7176262, 11212294 
+pkts, 64663198, 68898574, 65881940 
+TX, 199443713, RX, 199443713,CLONE_E2I, 28094307, DROP, 94
+

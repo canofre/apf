@@ -1,0 +1,25 @@
+## fwd_13x16s resultado de 10 execuções
+
+latencia, 121, 145, 124, 146, 124, 141, 121, 144, 119, 139, 120, 141, 127 
+TX, 368882910, RX, 368882910,CLONE_E2I, 0, DROP, 95
+
+## fwd_3x70s resultado de 10 execuções
+
+latencia, 124, 141, 124 
+TX, 368725286, RX, 368725286,CLONE_E2I, 0, DROP, 92
+
+## fwd_5x42s resultado de 10 execuções
+
+latencia, 121, 142, 124, 140, 125 
+TX, 368805586, RX, 368805586,CLONE_E2I, 0, DROP, 94
+
+## fwd_7x30s resultado de 10 execuções
+
+latencia, 120, 140, 122, 142, 124, 141, 128 
+TX, 368841351, RX, 368841351,CLONE_E2I, 0, DROP, 94
+
+## fwd_basico resultado de 10 execuções
+
+latencia, 124, 125, 122, 122, 122, 121, 124, 123, 122, 122, 119, 123, 124 
+TX, 368312820, RX, 368312820,CLONE_E2I, 0, DROP, 94
+
